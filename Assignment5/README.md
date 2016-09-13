@@ -1,9 +1,3 @@
-#CS/COE 1501 Assignment 5
-
-Posted:  Apr 14, 2016
-
-***Due:  Apr 24, 2015 @ 11:59PM***
-
 ##Goal:
 To get hands on experience with the use of digital signatures.
 
@@ -47,10 +41,3 @@ The second will generate and verify digital signatures using a SHA-256 hash.  Yo
 *  You must be able to run your signing/verification program with "java MySign s <filename>" or "java MySign v <filename>".
 *  You must fill out info_sheet.txt.
 *  Be sure to remember to push the latest copy of your code back to your GitHub repository before the the assignment is due.  At 12:00 AM Apr 25, the repositories will automatically be copied for grading.  Whatever is present in your GitHub repository at that time will be considered your submission for this assignment.
-
-##Additional Notes/Hints:
-*  Be very careful to read over the API constructors and methods for BigInteger.  Most of the functionality required for RSA key generation and encryption/decryption is already implemented in BigInteger.  Your primary challenge is to identify what BigInteger functions you can use to accomplish the approach we described in lecture.
-*  Note that creating a BigInteger based off of a byte array will truncate leading 0s in that byte array.  Be sure to account for this when transforming values back and forth between BigInteger and byte[], especially when comparing hash values.
-*  An example of using MessageDigest to generate the SHA-256 hash of a file is provided in HashEx.java
-*  You may find the creation of pubkey.rsa, privkey.rsa, and signed files to be most easily accomplished through the use of ObjectOutputStreams.  The format of your key files and signed files is entirely up to you, however.
-*  NEVER USE THIS PROJECT IN PRODUCTION CODE.  This is purely instructive.  Always use trusted and tested crypto libraries.
