@@ -1,9 +1,3 @@
-#CS/COE 1501 Assignment 4
-
-Posted:  Mar 24, 2016
-
-**Due:  Apr 7, 2016 @ 11:59PM**
-
 ##Goal:
 To gain a better understanding of graphs and graph algorithms through practical implementation.
 
@@ -28,16 +22,3 @@ Your program should operate via a menu-driven console interface.
 	1. Remove a route from the schedule.  The user enters the vertices defining the route.  This may also affect the searches / algorithms indicated above.
 	1. Quit the program. Before quitting, your routes should be saved back to the file (the same file and format that they were read in from, but containing the possibly modified route information).
 1. You must use algorithms discussed in class in answering the above queries.
-
-##Submission Guidelines:
-* **DO NOT SUBMIT** any IDE package files.
-* You must name the primary driver for your program Airline.java.
-* You must be able to compile your program by running "javac Airline.java".
-* You must be able to run your program with "java Airline.java".
-* You must fill out info_sheet.txt.
-* Be sure to remember to push the latest copy of your code back to your GitHub repository before the the assignment is due.  At 12:00 AM Apr 8, the repositories will automatically be copied for grading.  Whatever is present in your GitHub repository at that time will be considered your submission for this assignment.
-
-##Additional Notes/Hints:
-* A sample output file is provided for you in sample_output.txt.  This file provides an example of two runs of the program, one for each input file.
-* Note that you should not use a GUI to display any query results.  You must clearly display query results to the console.
-* Though code for the algorithms used in the assignment has been provided by the authors of your text book, note that use of this code will require extensive adaptations to account for the two weights of each edge in the graph.
